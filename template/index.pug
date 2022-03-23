@@ -1,0 +1,54 @@
+doctype html
+html
+  head
+    title Dance Academy 
+    style
+      include ../static/style.css
+  body
+    nav.navbar 
+        ul 
+            div#logo 
+              img(src="")
+              | HDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About Us]
+            li #[a(href="/") Services]
+            li #[a(href="/") Achievements]
+            li #[a(href="/") Contact Us]
+    section#intro 
+        div Welcome to Harsha Dance Academy
+        div.small Free for all.
+    section#mission
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+    section#sponsor 
+        h3 Our Sponsors
+        div#spon
+          img(src="", alt="img-1")
+          img(src="", alt="img-2")
+          img(src="", alt="img-3")
+          img(src="", alt="img-4")
+    footer
+      | Created by Harsha. © 2022 | ALL RIGHTS RESERVED               
+    script
+      include ../static/script.js

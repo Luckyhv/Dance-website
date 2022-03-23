@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    /* filter: invert(1); */
+}
+.navbar{
+    background-color: rgb(61, 60, 60);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 4px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 7px 29px;
+}
+.navbar li a:hover{
+    color: rgb(13, 13, 14);
+}
+#intro{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    font-size: 30px;
+    height: 310px;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    /* background-color: red; */
+}
+#sponsor{
+    background-color: rgb(253, 213, 220);
+    height: 310px;
+}
+#mission{
+    /* border: 2px solid red; */
+    height: 310px;; 
+    width: 80%;
+    margin: auto;
+}
+#mission h2{
+    font-size: 36px;
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding-top: 12px;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 20px;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit; 
+}
+#sponsor h3{
+    font-size: 36px;
+}
+#spon{
+    height: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+h3{
+    text-align: center;
+    padding-top: 25px;
+}
+.small{
+    font-size: 20px;
+}
+footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgb(13, 13, 14);
+}
